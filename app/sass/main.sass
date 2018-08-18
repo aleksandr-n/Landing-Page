@@ -37,18 +37,22 @@ body
 
 b, strong
 	font-weight: bold
+.mt-103
+	margin-top: 103px
 .bg-gray
 	background-color: #f6f2f2
+	padding-top: 29px
+	padding-bottom: 111px
+	margin-bottom: 100px
 .navbar-expand-lg
 	&.menu-nav
 		.navbar-collapse
 			justify-content: center
 .bg-light
-	&.menu-nav
+	width: 100%
 	background-color: #313030
 
 .menu-nav
-	margin-top: 29px
 	.nav-item
 		margin-left: 13px
 		margin-right: 13px
@@ -59,7 +63,7 @@ b, strong
 		padding-right: 24px
 		display: block
 		color: #e0e0e0
-		font-family: "Open Sans"
+		font-family: $default-font
 		font-size: 14px
 		font-weight: 700
 		line-height: 24px
@@ -69,7 +73,82 @@ b, strong
 		.nav-link
 			background: #ff3f40
 
+.b_gray_box_title
+	h1
+		font-weight: 800
+		text-transform: uppercase
+		font-size: 60px
+		line-height: 72px
+		letter-spacing: 1.5px
+		margin-top: -12px
+		margin-bottom: 20px
 
+	p
+		margin-bottom: 69px
+		font-size: 16px
+		font-weight: 400
+		line-height: 28px
+
+	a
+		width: 227px
+		height: 55px
+		border-radius: 5px
+		background-color: #ff2d2d
+		font-size: 18px
+		font-weight: bold
+		color: #ffffff
+		line-height: 0.32px
+		letter-spacing: 0.32px
+		padding-top: 15px
+		padding-bottom: 15px
+		padding-left: 63px
+		padding-right: 63px
+		text-decoration: none
+
+.embed-responsive
+	margin-left: 61px
+	width: 90%
+
+.embed-responsive-16by9::before
+	padding-top: 64.75%
+
+.bl-info-r
+	h2
+		opacity: 0.8
+		color: #000000
+		font-size: 42px
+		font-weight: 700
+		line-height: 55px
+		text-transform: uppercase
+		letter-spacing: 0.42px
+		margin-bottom: 36px
+
+	p
+		width: 509px
+		height: 98px
+		color: #000000
+		font-size: 16px
+		font-weight: 400
+		line-height: 28px
+
+	a
+		width: 227px
+		height: 55px
+		border-radius: 5px
+		border: 2px solid #ff0000
+		color: #ff2d2d
+		font-size: 18px
+		font-family: "OpenSans", sans-serif
+		font-weight: bold
+		line-height: 7.06px
+		letter-spacing: 0.32px
+		padding-left: 58px
+		padding-right: 58px
+		padding-top: 21px
+		padding-bottom: 20px
+		margin-top: 48px
+		display: inline-block
+		text-decoration: none
 
 
 @import "media" // Always at the end

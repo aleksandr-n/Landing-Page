@@ -34,6 +34,8 @@ body
 
 .text-center
 	text-align: center
+textarea
+	resize: none
 
 b, strong
 	font-weight: bold
@@ -43,7 +45,7 @@ b, strong
 	margin-top: 99px
 
 
-.bg-gray
+.header-top
 	background-color: #f6f2f2
 	padding-top: 29px
 	padding-bottom: 111px
@@ -278,6 +280,230 @@ b, strong
 	margin-bottom: 20px
 
 /*END Isotope*/
+
+/*comans*/
+.comans
+	position: relative
+	margin-top: 105px
+	margin-bottom: 101px
+	&:before
+		width: 132px
+		height: 2px
+		content: ' '
+		position: absolute
+		bottom: -31px
+		left: 0
+		background-color: #ff2d2d
+	.h2
+		font-size: 42px
+		font-weight: 700
+		text-transform: uppercase
+		letter-spacing: 0.38px
+		margin-bottom: 26px
+	p
+		font-size: 16px
+		font-weight: 400
+		line-height: 28px
+
+.box-foto
+	h3
+
+		font-size: 30px
+		font-weight: 600
+		text-transform: uppercase
+		letter-spacing: 0.28px
+		margin-top: 6px
+		margin-bottom: 25px
+.socialnetwork
+	line-height: 0
+	letter-spacing: 0
+	font-size: 0
+	margin-top: 40px
+	margin-bottom: 79px
+	li
+		font-family: $OpenSansItalic
+		font-size: 18px
+		//font-style: italic
+		line-height: 24px
+		letter-spacing: 0.9px
+		display: inline-block
+		margin-right: 33px
+		a
+			color: #000000
+			text-decoration: none
+.smoll-img
+	position: relative
+	.item_smoll-img
+		width: 100%
+		font-size: 18px
+		font-weight: 400
+		text-transform: uppercase
+		letter-spacing: 0.17px
+		text-align: center
+		background-color: #7b786f
+		//opacity: 0.5
+		color: #ffffff
+		position: absolute
+		left: 0
+		bottom: 0
+		z-index: 1
+		display: none
+	&:hover .item_smoll-img
+		display: block
+
+.bg-img
+	padding-top: 140px
+	padding-bottom: 119px
+	margin-top: 110px
+	background-size: cover
+	background-position: center
+	p
+		font-size: 16px
+		font-weight: 400
+		line-height: 28px
+		color: #ffffff
+		margin-top: 31px
+.title-text
+	color: #ffffff
+	font-size: 42px
+	font-weight: 700
+	line-height: 42px
+	letter-spacing: 1.05px
+
+/*END comans*/
+.forma_subscribe
+	&.input-group
+		margin-top: 53px
+.forma_subscribe
+	&.input-group > .form-control:not(:last-child),
+	&.input-group > .custom-select:not(:last-child)
+		border-radius: 0.25rem
+	.input-group-append
+		margin-left: 22px
+	.form-control
+		padding-top: 27px
+		padding-bottom: 27px
+	.input-group-prepend .bet,
+	.input-group-append .bet
+		padding-top: 27px
+		padding-bottom: 27px
+		padding-left: 57px
+		padding-right: 57px
+		font-size: 18px
+		font-weight: 700
+		line-height: 34.06px
+		text-transform: uppercase
+		letter-spacing: 0.32px
+		border: 0
+		background-color: #ff2d2d
+		border-radius: 0.25rem
+		color: #ffffff
+
+.feedback
+	position: relative
+	margin-top: 74px
+	&:before
+		width: 132px
+		height: 2px
+		content: ' '
+		position: absolute
+		bottom: -53px
+		left: 0
+		background-color: #ff2d2d
+	.h3
+		font-size: 42px
+		font-weight: 700
+		text-transform: uppercase
+		letter-spacing: 0.38px
+		margin-bottom: 35px
+	p
+		font-size: 16px
+		font-weight: 400
+		line-height: 28px
+.forma_massage
+	margin-top: 113px
+	input[type="text"]
+		background-color: #e6e6e6
+		//opacity: 0.1
+		font-size: 16px
+		font-weight: 400
+		font-family: $OpenSans
+		color: #000000
+		padding: 22px 0 22px 52px
+		border: 0
+	textarea
+		width: 100%
+		height: 249px
+		background-color: #e6e6e6
+		border: 0
+		font-family: $OpenSans
+		color: #000000
+		margin-top: 50px
+		padding: 22px 0 22px 52px
+		-webkit-border-radius: 0.25rem
+		-moz-border-radius: 0.25rem
+		border-radius: 0.25rem
+
+	.input-group-append
+		input[type="submit"]
+			width: 100%
+			color: #ffffff
+			border-radius: 5px
+			background-color: #ff3b3b
+			border: 0
+			font-size: 18px
+			font-weight: 700
+			line-height: 34.06px
+			text-transform: uppercase
+			letter-spacing: 0.32px
+			padding-top: 29px
+			padding-bottom: 29px
+
+	.input-group-append
+		margin-top: 50px
+
+.black_square
+	margin-top: 113px
+	background-color: #2d2d2d
+	padding-top: 134px
+	padding-left: 79px
+	padding-bottom: 146px
+	h4
+		font-size: 18px
+		font-weight: 700
+		line-height: 34.06px
+		text-transform: uppercase
+		letter-spacing: 0.32px
+		color: #ffffff
+		margin-bottom: 24px
+.address_card
+	.address
+		display: block
+		opacity: 0.8
+		color: #ffffff
+		font-family: $OpenSans
+		font-size: 16px
+		font-weight: 400
+		line-height: 28px
+		margin-bottom: 18px
+	.email
+		display: block
+		opacity: 0.8
+		color: #ffffff
+		font-family: $OpenSans
+		font-size: 16px
+		font-weight: 400
+		line-height: 28px
+		margin-bottom: 19px
+	.phone
+		display: block
+		opacity: 0.8
+		color: #ffffff
+		font-family: $OpenSans
+		font-size: 16px
+		font-weight: 400
+		line-height: 28px
+
 
 
 @import "media" // Always at the end

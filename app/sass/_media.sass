@@ -5,26 +5,41 @@
 
 // ≥1200px
 +media-breakpoint-down(lg)
+  .mt-103
+    margin-top: 45px
+  .b_gray_box_title
+    p
+      margin-bottom: 20px
+    h1
+      font-size: 49px
+      line-height: 50px
+  .header-top
+    padding-bottom: 20px
+    margin-bottom: 25px
+
+  .comans
+    margin-top: 20px
+    margin-bottom: 70px
+  .title-text
+    font-size: 30px
+  .form-message
+    width: 100%
 
 // ≥992px
 +media-breakpoint-down(md)
-
-// ≥768px
-+media-breakpoint-down(sm)
+  .mt-99
+    margin-top: 45px
   .mt-103
-    margin-top: 29px
+    margin-top: 60px
 
   .b_gray_box_title
     p
       margin-bottom: 20px
     h1
-      font-size: 42px
+      font-size: 36px
       line-height: 42px
 
-  .embed-responsive
-    margin-top: 30px
-
-  .bg-gray
+  .header-top
     padding-bottom: 20px
     margin-bottom: 25px
 
@@ -36,10 +51,64 @@
       margin-bottom: 10px
     a
       margin-top: 25px
+
+  .embed-responsive-16by9::before
+    padding-top: 84.75%
+
+  .bl-info-r
+    margin-bottom: 40px
+
   .element-item
     width: 50%
     .img-responsive
       min-width: 100%
+  .title-text
+    font-size: 24px
+  .socialnetwork
+    margin-top: 0
+    margin-bottom: 21px
+    li
+      margin-right: 9px
+  .big-img
+    .img-responsive
+      min-width: 100%
+  .smoll-img
+    .item_smoll-img
+      font-size: 12px
+  .bg-img
+    margin-top: 50px
+
+// ≥768px
++media-breakpoint-down(sm)
+  .mt-103
+    margin-top: 29px
+
+  .b_gray_box_title
+    h1
+      font-size: 42px
+      line-height: 42px
+
+  .embed-responsive
+    margin-top: 30px
+  .bg-img
+    .input-group-append
+      margin-left: 0
+      margin-top: 10px
+  .forma_subscribe
+    &.input-group
+      display: inherit
+    &.input-group > .form-control,
+    &.input-group > .custom-select,
+    &.input-group > .custom-file
+      width: 100%
+    .input-group-prepend,
+    .input-group-append
+      display: inherit
+      text-align: center
+  .title-text
+    font-size: 29px
+    line-height: 34px
+
 // ≥576px
 +media-breakpoint-down(xd)
 
@@ -51,11 +120,20 @@
     width: 100%
     .img-responsive
       min-width: 100%
+  .smoll-img
+    margin-bottom: 30px
+    .img-responsive
+      min-width: 100%
+    .item_smoll-img
+      font-size: 18px
 // ≥480px
 +media-breakpoint-down(zx)
 
 // ≥360px
 +media-breakpoint-down(xs)
+  .black_square
+    padding-top: 15px
+    padding-left: 15px
 
 /*==========  Mobile First  ==========*/
 // ≤360px
@@ -69,11 +147,26 @@
 
 // ≤768px
 +media-breakpoint-up(md)
-  .embed-responsive
-    margin-left: 61px
-    width: 90%
+
 // ≤992px
 +media-breakpoint-up(lg)
 
+  .element-item
+    width: 25%
+    .img-responsive
+      min-width: 100%
 // ≤1200px
 +media-breakpoint-up(xl)
+  .embed-responsive
+    margin-left: 61px
+    width: 90%
+
+  .black_square
+    margin-right: -100%
+    h4
+      max-width: 33.33333%
+
+  .address_card
+    max-width: 33.33333%
+
+

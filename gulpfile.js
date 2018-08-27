@@ -77,10 +77,10 @@ gulp.task('build', ['removedist', 'sass', 'js'], function() {
     var buildFonts = gulp.src('app/fonts/**/*') // Переносим шрифты в продакшен
         .pipe(gulp.dest('dist/fonts'));
 
-    var buildJs = gulp.src('app/js/**/*scripts.min.js') // Переносим скрипты в продакшен
+    var buildJs = gulp.src('app/js/scripts.min.js') // Переносим скрипты в продакшен
         .pipe(gulp.dest('dist/js'));
 
-    var buildImg = gulp.src('app/img/**/*') // Переносим скрипты в продакшен
+    var buildImg = gulp.src('app/img/**/*') // Переносим картинки в продакшен
         .pipe(gulp.dest('dist/img'));
 
     var buildHtml = gulp.src('app/*.html') // Переносим HTML в продакшен
